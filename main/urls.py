@@ -18,8 +18,6 @@ from django.urls import path,include,re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include("catalog.urls")),   
-    path('',include("toys.urls")),
 
     re_path(r'^',include("drones.urls", namespace='v1')),
     # re_path(r'^v1/',include("drones.urls", namespace='v1')),
