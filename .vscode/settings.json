@@ -1,0 +1,13 @@
+{
+    // Custom settings
+    "editor.mouseWheelZoom": true,
+    "workbench.activityBar.visible":false,
+    "workbench.editor.showTabs":false,
+    //  "workbench.sideBar.location":"right",
+    "workbench.statusBar.visible": false,
+    
+    "editor.minimap.enabled": false,
+    "zenMode.centerLayout": true,
+    "files.autoSaveDelay": 1000,
+    
+}
